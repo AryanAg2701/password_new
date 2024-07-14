@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+  <h1>Login</h1>
+  
+  <!-- form for user login -->
+  <form action="/auth/login" method="post">
+    <!-- username input field -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    
+    <!-- password input field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <!-- submit button -->
+    <input type="submit" value="Login">
+  </form>
+  
+  <!-- link to registration page -->
+  <p>Don't have an account? <a href="/auth/register">Register</a></p>
+</body>
+</html>
